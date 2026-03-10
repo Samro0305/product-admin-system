@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Admin Product Panel</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h2>Admin Product Management</h2>
+
+<div class="form">
+
+<input id="name" placeholder="Product Name">
+<input id="price" placeholder="Price">
+<input id="description" placeholder="Description">
+
+<button onclick="addProduct()">Add Product</button>
+
+</div>
+
+<h3>Product List</h3>
+
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Name</th>
+<th>Price</th>
+<th>Description</th>
+<th>Action</th>
+</tr>
+</thead>
+
+<tbody id="products"></tbody>
+
+</table>
+
+<script src="script.js"></script>
+
+</body>
+</html>
